@@ -1,9 +1,3 @@
-Author:	Andrea Paraboni
-Copyright:	2013 mxnet snc
-Date:	2013-03-01
-Email:	andrea.paraboni@mxnet.it
-Version:	1.0.0
-
 #Anthologia Mobile 1.1.0
 
 Anthologia Mobile is a mobile web app for visualizing on mobile devices and desktops collections of newspapers, magazines, manuals, catalogues, pamphlets, etc. It was developed using the frameworks [Sencha Touch 2.1.1][touch] and [Sencha Cmd 3.0.2][cmd], Anthologia Mobile runs on all devices supported by the frameworks.
