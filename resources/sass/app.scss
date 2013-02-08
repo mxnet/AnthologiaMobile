@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+$font-family: "Droid Sans";
+$base-color: rgb(68, 68, 68);
+$base-gradient: 'glossy';
+$alert-color: $base-color;
+$confirm-color: $base-color;
+$active-color: $base-color;
+$white: #ffffff;
+@import 'sencha-touch/default/all';
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+#loginView, #loginView.x-form .x-scroll-container {
+	background-color : $base-color;
+}
+#infoLabel {
+	color: $white;
+}
+#infoLabel a:link, #infoLabel a:visited {
+	color: $white;
+	text-decoration: none;
+}
+#infoLabel a:hover, #infoLabel a:active {
+	text-decoration: underline;
+}
+#editionsData .item {
+	height: 184px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: $white;
+}
+#editionsData, #pagesData {
+	background-color: $base-color;
+}
+#editionsData .item img {
+	height: 130px;
+}
+#editionsData .x-item-pressed > .item, #pagesData .x-item-pressed > .item {
+	background-color: rgb(17, 17, 17);
+}
+#editionsData .item .name, #editionsData .item .info {
+	width: 125px;
+}
+#editionsData .item .name, #pagesData .item .name {
+	font-size: 0.80em;
+	font-weight: bold;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#editionsData .item .info {
+	font-size: 0.56em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#editionsData .item .info, #pagesData .item .info {
+	font-size: 0.60em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#pagesData .item {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: $white;
+}
+#pagesData .x-dataview-item:first-child  {
+	margin-left: 0px;
+}
+#pagesData .item img {
+	height: 130px;
+}
+#pagesData .x-item-selected .item {
+	background-color: rgb(17, 17, 17);
+}
+.x-sheet, .x-sheet-action {
+	padding: 0px;
+}
+#pagesData .item .info, #pagesData .item .name, #editionsDataView .item .name, #editionsDataView .item .info  {
+	width: 125px;
+	margin: 0px auto;
+}
+#pageLabel  {
+	font-size: 0.80em;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: $white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 8px;
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"editionName": "PostgreSQL Magazine",
+		"editionInfo": "May 2012",
+		"editionImage":	"resources/editions/demo01/images/001.jpg",
+		"editionThumb": "resources/editions/demo01/thumbs/001.jpg",
+		"editionPages": 36,
+		"editionFile":	"resources/editions/demo01/PostgreSQL Magazine.pdf",
+		"pagesFile": "resources/editions/demo01/pages.json"
+	},
+	{
+		"editionName": "Issue 8",
+		"editionInfo": "Tuesday, January 29, 2013",
+		"editionImage": "resources/editions/demo00/images/001.jpg",
+		"editionThumb": "resources/editions/demo00/thumbs/001.jpg",
+		"editionPages": 28,
+		"editionFile":	"resources/editions/demo00/Issue 8.pdf",
+		"pagesFile": "resources/editions/demo00/pages.json"
+	},
+	{
+		"editionName": "Famila",
+		"editionInfo": "January 2013",
+		"editionImage": "resources/editions/demo02/images/001.jpg",
+		"editionThumb": "resources/editions/demo02/thumbs/001.jpg",
+		"editionPages": 16,
+		"editionFile":	"resources/editions/demo02/Famila.pdf",
+		"pagesFile": "resources/editions/demo02/pages.json"
+	}
+]
