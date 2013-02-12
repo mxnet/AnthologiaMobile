@@ -35,7 +35,7 @@ in which:
 `editionsScript`
 :	string: defines path to the [editions script](#editionsScript).
 
-###<a id="authenticationScripts"></a>Authentication script
+###<a id="authenticationScript"></a>Authentication script
 
 The application can authenticate the user with an AJAX request without parameters to a dynamic script (node.js, PHP, etc.) or statically to a file (JSON), which returns a JSON object thus structured:
 
@@ -46,7 +46,7 @@ The application can authenticate the user with an AJAX request without parameter
 
 The value of message is optional.
 
-###<a id="loginScripts"></a>Login script
+###<a id="loginScript"></a>Login script
 
 The application can check the user login with an AJAX request with the parameters POST username and password to a dynamic script (node.js, PHP, etc.) or statically to a file (JSON), which returns a JSON object thus structured:
 
@@ -57,7 +57,7 @@ The application can check the user login with an AJAX request with the parameter
 
 The value of `message` is optional, but can be used to convey information to the user rather than signal errors.
 
-###<a id="logoutScripts"></a>Logout script
+###<a id="logoutScript"></a>Logout script
 
 The application can check the user logout with an AJAX request without parameters to a dynamic script (node.js, PHP, etc.) or statically to a file (JSON), which returns a JSON object thus structured:
 
